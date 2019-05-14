@@ -1,0 +1,31 @@
+# ConfigurationsResponse
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**authMode** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**emailFrom** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**emailHost** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**emailPort** | [**IntegerConfigItem**](IntegerConfigItem.md) |  |  [optional]
+**emailIdentity** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**emailUsername** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**emailSsl** | [**BoolConfigItem**](BoolConfigItem.md) |  |  [optional]
+**emailInsecure** | [**BoolConfigItem**](BoolConfigItem.md) |  |  [optional]
+**ldapUrl** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapBaseDn** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapFilter** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapScope** | **Integer** | 0-LDAP_SCOPE_BASE, 1-LDAP_SCOPE_ONELEVEL, 2-LDAP_SCOPE_SUBTREE |  [optional]
+**ldapUid** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapSearchDn** | **String** | The DN of the user to do the search. |  [optional]
+**ldapTimeout** | [**IntegerConfigItem**](IntegerConfigItem.md) |  |  [optional]
+**ldapGroupAttributeName** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapGroupBaseDn** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapGroupSearchFilter** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**ldapGroupSearchScope** | [**IntegerConfigItem**](IntegerConfigItem.md) |  |  [optional]
+**ldapGroupAdminDn** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**projectCreationRestriction** | [**StringConfigItem**](StringConfigItem.md) |  |  [optional]
+**readOnly** | [**BoolConfigItem**](BoolConfigItem.md) |  |  [optional]
+**selfRegistration** | [**BoolConfigItem**](BoolConfigItem.md) |  |  [optional]
+**tokenExpiration** | [**IntegerConfigItem**](IntegerConfigItem.md) |  |  [optional]
+**verifyRemoteCert** | [**BoolConfigItem**](BoolConfigItem.md) |  |  [optional]
+**scanAllPolicy** | **Object** |  |  [optional]
